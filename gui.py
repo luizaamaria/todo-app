@@ -3,7 +3,7 @@ import PySimpleGUI as sg
 import tkinter
 import time
 
-sg.theme("DarkPurple3")
+sg.theme("LightPurple")
 
 clock = sg.Text('', key="clock")
 label = sg.Text("Type in a to-do")
