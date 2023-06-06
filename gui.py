@@ -27,7 +27,7 @@ window = sg.Window('My To-do App',
                            [input_box, add_button],
                            [list_box, edit_button, complete_button],
                            [exit_button]],
-                   font=('Helvetica', 14))
+                   font=('Helvetica', 18))
 while True:
     event, values = window.read(timeout=200)
     window["clock"].update(value=time.strftime("%b %d, %Y %H:%M:%S"))
